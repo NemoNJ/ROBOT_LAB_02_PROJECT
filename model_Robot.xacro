@@ -206,7 +206,7 @@
   <joint name="joint_24" type="revolute">
     <parent link="link_0"/>
     <child link="link_24"/>
-    <origin xyz="0.257 -0.158 0.079"  rpy= "-6.845 0 0"/>
+    <origin xyz="0.257 -0.158 0.079"  rpy= "-5.77 0 0"/>
     <axis xyz="1 0 0"/>
     <limit effort="5.0" velocity="1.0" lower="-0.540" upper="0.540"/>
   </joint>
@@ -236,7 +236,7 @@
   <joint name="joint_25" type="revolute">
     <parent link="link_0"/>
     <child link="link_25"/>
-    <origin xyz="0.257 0.1427 0.079" rpy="6.84 0 0"/>
+    <origin xyz="0.257 0.1427 0.079" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
     <limit effort="5.0" velocity="1.0" lower="-0.540" upper="0.540"/>
   </joint>
@@ -265,7 +265,7 @@
   <joint name="joint_27" type="prismatic">
     <parent link="link_24"/>
     <child link="link_27"/>
-    <origin xyz="0.171 0.03 -0.001" rpy="0 0 0"/>
+    <origin xyz="0.1806 0.023 -0.05" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
    <limit lower="-0.2625" upper="0" effort="10.0" velocity="0.5"/>
    <dynamics damping="0.1" friction="0.05"/>
@@ -295,7 +295,7 @@
   <joint name="joint_28" type="prismatic">
     <parent link="link_25"/>
     <child link="link_28"/>
-    <origin xyz="0.681 0.16 0.028" rpy="0 0 0"/>
+    <origin xyz="0.178 0 -0.05" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
    <limit lower="-0.2625" upper="0" effort="10.0" velocity="0.5"/>
    <dynamics damping="0.1" friction="0.05"/>
