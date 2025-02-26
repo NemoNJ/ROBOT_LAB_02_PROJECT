@@ -57,7 +57,7 @@
         <mesh filename="file:///root/ROBOT_PROJECT_02_ws/BODY_PART_Version3.dae" scale="1 1 1"/>
       </geometry>
     </collision>
-    <xacro:inertial_box mass="6" x="0.480" y="0.500" z="0.">
+    <xacro:inertial_box mass="10" x="0.480" y="0.500" z="0.">
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </xacro:inertial_box>
   </link>
@@ -84,7 +84,7 @@
         <mesh filename="file:///root/ROBOT_PROJECT_02_ws/Wheel_partV3.dae" scale="1 1 1"/>
       </geometry>
     </collision>
-    <xacro:inertial_cylinder mass="4" length ="0.060" radius ="0.075" >
+    <xacro:inertial_cylinder mass="2" length ="0.060" radius ="0.075" >
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </xacro:inertial_cylinder>
   </link>
@@ -114,7 +114,7 @@
         <mesh filename="file:///root/ROBOT_PROJECT_02_ws/Wheel_partV3.dae" scale="1 1 1"/>
       </geometry>
     </collision>
-    <xacro:inertial_cylinder mass="4" length ="0.060" radius ="0.075" >
+    <xacro:inertial_cylinder mass="2" length ="0.060" radius ="0.075" >
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </xacro:inertial_cylinder>
   </link>
@@ -142,7 +142,7 @@
         <mesh filename="file:///root/ROBOT_PROJECT_02_ws/Wheel_partV3.dae" scale="1 1 1"/>
       </geometry>
     </collision>
-    <xacro:inertial_cylinder mass="4" length ="0.060" radius ="0.075" >
+    <xacro:inertial_cylinder mass="2" length ="0.060" radius ="0.075" >
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </xacro:inertial_cylinder>
   </link>
@@ -170,7 +170,7 @@
         <mesh filename="file:///root/ROBOT_PROJECT_02_ws/Wheel_partV3.dae" scale="1 1 1"/>
       </geometry>
     </collision>
-    <xacro:inertial_cylinder mass="4" length ="0.060" radius ="0.075" >
+    <xacro:inertial_cylinder mass="2" length ="0.060" radius ="0.075" >
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </xacro:inertial_cylinder>
   </link>
@@ -198,7 +198,7 @@
         <mesh filename="file:///root/ROBOT_PROJECT_02_ws/LINK_V3.dae" scale="1 1 1"/>
       </geometry>
     </collision>
-    <xacro:inertial_box mass="2" x="0.18" y="0.028" z="0.085">
+    <xacro:inertial_box mass="0.2" x="0.18" y="0.028" z="0.085">
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </xacro:inertial_box>
   </link>
@@ -211,7 +211,7 @@
   <joint name="joint_24" type="revolute">
     <parent link="link_0"/>
     <child link="link_24"/>
-    <origin xyz="0.257 -0.158 0.079"  rpy= "-6.3 0 0"/>
+    <origin xyz="0.257 -0.158 0.079"  rpy= "-6.3 0.05 0"/>
     <axis xyz="0 -1 0"/>
     <limit effort="5.0" velocity="1.0" lower="-0.10" upper="2.50"/>
   </joint>
@@ -228,7 +228,7 @@
         <mesh filename="file:///root/ROBOT_PROJECT_02_ws/LINK_V3.dae" scale="1 1 1"/>
       </geometry>
     </collision>
-    <xacro:inertial_box mass="2" x="0.18" y="0.028" z="0.085">
+    <xacro:inertial_box mass="0.2" x="0.18" y="0.028" z="0.085">
         <origin xyz="0 0 0" rpy= " 0 0 0"/>
     </xacro:inertial_box>
   </link>
@@ -241,7 +241,7 @@
   <joint name="joint_25" type="revolute">
     <parent link="link_0"/>
     <child link="link_25"/>
-    <origin xyz="0.257 0.1427 0.079" rpy="0 0 0"/>
+    <origin xyz="0.257 0.1427 0.079" rpy="0 0.05 0"/>
     <axis xyz="0 -1 0"/>
     <limit effort="5.0" velocity="1.0" lower="-0.10" upper="2.50"/>
   </joint>
@@ -258,7 +258,7 @@
         <mesh filename="file:///root/ROBOT_PROJECT_02_ws/HAND1_V3dae.dae" scale="1 1 1"/>
       </geometry>
     </collision>
-    <xacro:inertial_box mass="0.2" x="0.15" y="0.090" z="0.15">
+    <xacro:inertial_box mass="0.1" x="0.10" y="0.060" z="0.10">
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </xacro:inertial_box>
   </link>
@@ -288,7 +288,7 @@
         <mesh filename="file:///root/ROBOT_PROJECT_02_ws/HAND2_V3dae.dae" scale="1 1 1"/>
       </geometry>
     </collision>
-    <xacro:inertial_box mass="0.2" x="0.15" y="0.090" z="0.15">
+    <xacro:inertial_box mass="0.1" x="0.10" y="0.060" z="0.10">
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </xacro:inertial_box>
   </link>
