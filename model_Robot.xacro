@@ -127,7 +127,7 @@
     <parent link="base_link"/>
     <child link="link_15"/>
     <origin xyz="-0.130194 -0.211467 0.0" rpy="0 0 0"/>
-    <axis xyz="0 1 0"/>
+    <axis xyz="0 -1 0"/>
   </joint>
 
     <!-- Link 16(RIGHT_FRONT PART) -->
@@ -155,7 +155,7 @@
     <parent link="base_link"/>
     <child link="link_16"/>
     <origin xyz="0.080 -0.211467 0.0" rpy="0 0 0"/>
-    <axis xyz="0 1 0"/>
+    <axis xyz="0 -1 0"/>
   </joint>
 
       <!-- Link 17(LEFT_FRONT PART) -->
@@ -212,8 +212,8 @@
     <parent link="link_0"/>
     <child link="link_24"/>
     <origin xyz="0.257 -0.158 0.079"  rpy= "-6.3 0 0"/>
-    <axis xyz="0 1 0"/>
-    <limit effort="5.0" velocity="1.0" lower="-0.540" upper="0.540"/>
+    <axis xyz="0 -1 0"/>
+    <limit effort="5.0" velocity="1.0" lower="-0.10" upper="2.50"/>
   </joint>
 
      <!--  Link 25 (ARM LEFT)-->
@@ -242,8 +242,8 @@
     <parent link="link_0"/>
     <child link="link_25"/>
     <origin xyz="0.257 0.1427 0.079" rpy="0 0 0"/>
-    <axis xyz="0 1 0"/>
-    <limit effort="5.0" velocity="1.0" lower="-0.540" upper="0.540"/>
+    <axis xyz="0 -1 0"/>
+    <limit effort="5.0" velocity="1.0" lower="-0.10" upper="2.50"/>
   </joint>
 
   <!-- Link 27 (Hydraulic right)-->
@@ -272,7 +272,7 @@
     <child link="link_27"/>
     <origin xyz="0.1806 0.023 -0.05" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
-   <limit lower="-0.02" upper="0.02" effort="10.0" velocity="0.5"/>
+   <limit lower="-0.01" upper="0.055" effort="10.0" velocity="0.5"/>
    <dynamics damping="0.1" friction="0.05"/>
   </joint>
 
@@ -301,8 +301,8 @@
     <parent link="link_25"/>
     <child link="link_28"/>
     <origin xyz="0.178 0 -0.05" rpy="0 0 0"/>
-    <axis xyz="0 1 0"/>
-   <limit lower="-0.2625" upper="0" effort="10.0" velocity="0.5"/>
+    <axis xyz="0 -1 0"/>
+   <limit lower="-0.01" upper="0.055" effort="10.0" velocity="0.5"/>
    <dynamics damping="0.1" friction="0.05"/>
   </joint>
 </robot>
