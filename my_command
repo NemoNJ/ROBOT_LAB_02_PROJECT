@@ -10,3 +10,4 @@ ros2 run joint_state_publisher_gui joint_state_publisher_gui
 //slam navigation
 cp /opt/ros/humble/share/slam_toolbox/config/mapper_params_online_async.yaml ROBOT_PROJECT_V2_ws/src/ROBOT_PROJECT_VERSION_02/config
 ros2 launch slam_toolbox online_async_launch.py params_file:=./src/ROBOT_PROJECT_VERSION_02/config/mapper_params_online_async.yaml use_sime_time:=true
+root@DESKTOP-EBQPP5F:~/ROBOT_PROJECT_V2_ws# ros2 launch slam_toolbox online_async_launch.py params_file:=./src/ROBOT_PROJECT_VERSION_02/config/mapper_params_online_async.yaml use_sime_time:=true
